@@ -1,0 +1,18 @@
+.nav {
+    background-color: #FFB4B0;
+    height: 43px;
+    border: 2px solid black;
+    margin: 0 40px
+}
+
+.nav > li {
+    float: left;
+    list-style-type: none;
+    margin: 10px 15px 5px 15px;
+    font-family: "Arial";
+    cursor: pointer;
+}
+
+.text {
+	font-size: 14px;
+}
