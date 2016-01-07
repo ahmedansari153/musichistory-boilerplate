@@ -11,7 +11,7 @@
 <nav>
 	<ul class="nav">
 		<li class="text">
-			<a href="#">View Music</a>
+			<a href="index.html">View Music</a>
 		</li>
 		<li class="text">
 			<a href="#">Add Music</a>
@@ -21,6 +21,36 @@
 		</li>
 	</ul>
 </nav>
-
+<div class="sidebar">
+	<p>Song Length:</p>
+	<div id="slider">
+	<input class="bar" type="range" id="rangeinput" onchange="rangevalue.value=value"/>
+	<span class="highlight"></span>
+	</div>
+	<p>Artist:</p>
+	<select>
+  		<option value="Deathcab">Death Cab for Cutie</option>
+  		<option value="Lisa">Lisa Hannigan</option>
+  		<option value="Rise">Rise Against</option>
+  		<option value="adele">Adele</option>
+	</select>
+	<p>Album:</p>
+	<select>
+  		<option value="Kintsungi">Kintsunugi</option>
+  		<option value="Lisa">Seasew</option>
+  		<option value="Appeal">Appeal to Reason</option>
+  		<option value="25">25</option>
+	</select>
+	<p>Genre:</p>
+	<form action="">
+		<input type="checkbox" name="rock" value="Rock">Rock
+		<input type="checkbox" name="Pop" value="Pop">Pop<br>
+		<input type="checkbox" name="rock" value="Rock">Rock
+		<input type="checkbox" name="Classical" value="Classical">Classical<br>
+		<input type="checkbox" name="rock" value="Rock">Jazz
+		<input type="checkbox" name="Pop" value="Pop">Hip Hop<br>
+	</form>
+	<button id="butt">Filter</button>
+</div>
 </body>
 </html>
