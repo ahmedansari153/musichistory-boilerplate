@@ -6,15 +6,21 @@
 }
 
 .nav > li {
-    float: left;
     list-style-type: none;
-    margin: 10px 15px 5px 15px;
+    margin: 13px 15px 5px 15px;
     font-family: "Arial";
     cursor: pointer;
+    display: inline-block;
 }
 
 .text {
 	font-size: 14px;
+    text-align: left;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
 }
 .sidebar {
     border: 2px solid black;
@@ -28,6 +34,14 @@ form {
     font-family: arial;
 }
 
-#id {
-    
+.MainBar {
+    background-color: #FEFAC0;
+    border: 2px solid black;
+    margin: 10px 100px 10px 255px;
+}
+
+.name {
+    font-family: arial;
+    font-size: 18pt;
+    color: #785616;
 }
