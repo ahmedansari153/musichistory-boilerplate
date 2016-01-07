@@ -7,58 +7,63 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
 <nav>
 	<ul class="nav">
 		<li class="text">
-			<a href="index.html">View Music</a>
-		</li>
+			<a href="index.html">View Music</a>  |
+		</li> 
 		<li class="text">
-			<a href="#">Add Music</a>
+			<a href="#">Add Music</a> |
 		</li>
 		<li class="text">
 			<a href="#">Profile</a>
 		</li>
 	</ul>
 </nav>
+
+<body>
 <div class="sidebar">
-	<p>Song Length:</p>
+	<p class="type">Song Length:</p>
 	<div id="slider">
 	<input class="bar" type="range" id="rangeinput" onchange="rangevalue.value=value"/>
 	<span class="highlight"></span>
 	</div>
-	<p>Artist:</p>
+	<p class="type">Artist:</p>
 	<select>
   		<option value="Deathcab">Death Cab for Cutie</option>
   		<option value="Lisa">Lisa Hannigan</option>
   		<option value="Rise">Rise Against</option>
   		<option value="adele">Adele</option>
 	</select>
-	<p>Album:</p>
+	<p class="type">Album:</p>
 	<select>
-  		<option value="Kintsungi">Kintsunugi</option>
+  		<option value="Kintsungi">Kintsugi</option>
   		<option value="Lisa">Seasew</option>
   		<option value="Appeal">Appeal to Reason</option>
   		<option value="25">25</option>
 	</select>
-	<p>Genre:</p>
+	<p class="type">Genre:</p>
 	<form action="">
 		<input type="checkbox" name="rock" value="Rock">Rock
 		<input type="checkbox" name="Pop" value="Pop">Pop<br>
 		<input type="checkbox" name="rock" value="Rock">Rock
-		<input type="checkbox" name="Classical" value="Classical">Classical<br>
+		<input type="checkbox" name="Indie" value="Indie">Indie<br>
 		<input type="checkbox" name="rock" value="Rock">Jazz
 		<input type="checkbox" name="Pop" value="Pop">Hip Hop<br>
 	</form>
-	<button id="butt">Filter</button>
+	<div class="wrapper">
+		<button id="button">Filter</button>
+	</div>
 </div>
 <div class="MainBar">
-	<p class="name">Song Name</p>
-	<p>Artist name | Album name | Genre</p>
-	<p class="name">Song Name</p>
-	<p>Artist name | Album name | Genre</p>
-	<p class="name">Song Name</p>
-	<p>Artist name | Album name | Genre</p>
+	<p class="name">Midnight Hands</p>
+	<p class="info">Rise Against | Endgame | Rock</p>
+	<p class="name">Pistachio</p>
+	<p class="info">Lisa Hannigan | Sea Sew | Indie</p>
+	<p class="name">The Ghosts of Beverly Drive</p>
+	<p class="info">Death Cab for Cutie | Kintsugi | Indie</p>
+	<p class="name">When We Were Young</p>
+	<p class="info">Adele | 25 | Genre</p>
 </div>
 </body>
 </html>
