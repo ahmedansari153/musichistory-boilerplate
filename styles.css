@@ -2,7 +2,7 @@
     background-color: #FFB4B0;
     height: 43px;
     border: 2px solid black;
-    margin: 0 40px
+    margin: 0 100px;
 }
 
 .nav > li {
@@ -15,4 +15,19 @@
 
 .text {
 	font-size: 14px;
+}
+.sidebar {
+    border: 2px solid black;
+    background-color:  #4DD7FA;
+    margin: 10px 0 10px 100px;
+    float: left;
+    font-family: Arial;
+
+}
+form {
+    font-family: arial;
+}
+
+#id {
+    
 }
