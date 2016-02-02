@@ -22,10 +22,10 @@ body {
     width: 1000px;
     margin: auto;
 }
-.sidebar {
+#sidebar {
     border: 2px solid black;
     background-color:  #4DD7FA;
-    margin: 10px 0 10px 100px;
+    margin: 0px 0 10px 100px;
     float: left;
     font-family: Arial;
     height: 380px;
@@ -38,7 +38,7 @@ form {
     text-align: left;
 }
 
-.MainBar {
+#MainBar {
     background-color: #FEFAC0;
     border: 2px solid black;
     margin: 10px 100px 10px 265px;
@@ -65,4 +65,47 @@ form {
 
 .wrapper {
     text-align: center;
+}
+
+#list-music {
+    font-size: 14px;
+    text-align: left;
+}
+
+#add-music {
+    font-size: 14px;
+    text-align: left;
+    list-style-type: none;
+    margin: 13px 0 5px 0;
+    font-family: "Arial";
+    cursor: auto;
+    display: inline-block;
+}
+
+.visible {
+  display: block;
+}
+
+.visible2 {
+display: inline-block;
+float: left;
+clear: left;
+text-align: right;
+position: absolute;
+left:30%;
+margin-top: -70px;
+}
+
+.hidden {
+  display: none;
+}
+
+#inputField {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+#inputField {
+    font-family: arial;
+
 }

@@ -9,20 +9,18 @@
 
 <nav>
 	<ul class="nav">
-		<li class="text">
-			<a href="index.html">View Music</a>  |
-		</li> 
-		<li class="text">
-			<a href="#">Add Music</a> |
+		<li id="list-music">
+			<a href="#">List Music</a> |
 		</li>
-		<li class="text">
-			<a href="#">Profile</a>
+		<li id="add-music">
+			<a href="#">Add Music</a>
 		</li>
 	</ul>
 </nav>
 
 <body>
-<div class="sidebar">
+<div id="body">
+<div id="sidebar">
 	<p class="type">Song Length:</p>
 	<div id="slider">
 	<input class="bar" type="range" id="rangeinput" onchange="rangevalue.value=value"/>
@@ -55,7 +53,7 @@
 		<button id="button">Filter</button>
 	</div>
 </div>
-<div class="MainBar">
+<div class="body" id="MainBar">
 	<p class="name">Midnight Hands</p>
 	<p class="info">Rise Against | Endgame | Rock</p>
 	<p class="name">Pistachio</p>
@@ -65,5 +63,19 @@
 	<p class="name">When We Were Young</p>
 	<p class="info">Adele | 25 | Genre</p>
 </div>
+</div>
+<div class="hidden" id="inputField">
+	<label for="song-name" >Song:</label>
+    <input id="song" type="text" name="song-name">
+    <br/>
+    <label for="artist">Artist:</label>
+    <input id="artist" type="text" name="artist">
+    <br/>
+    <label for="album">Album:</label>
+    <input id="album" type="text" name="album">
+    <br/>
+	<button id="add">Add</button>
+</div>
+<script src="songs.js"></script>
 </body>
 </html>
